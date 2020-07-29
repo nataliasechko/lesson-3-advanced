@@ -18,7 +18,7 @@ input[type="checkbox"] {
     display: block;
     width: 110px;
     height: 50px;
-    background: #D8BFD8;
+    background: #FFDAB9;
     cursor: pointer;
     border-radius: 45px;
     overflow: hidden;
@@ -27,7 +27,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked ~ .check {
     background: white;
-    box-shadow: 0 0 0 1200px #D8BFD8;
+    box-shadow: 0 0 0 1200px #FFDAB9;
 }
 
 .check:before {
@@ -51,7 +51,7 @@ input[type="checkbox"]:checked ~ .check:before {
     position: absolute;
     top: 5px;
     right: 5px;
-    background: #D8BFD8;
+    background: #FFDAB9;
     width: 40px; 
     height: 40px;
     border-radius: 50%;
